@@ -1,0 +1,23 @@
+@media(min-width:200px)and (max-width:1200px){
+    nav{
+        justify-content: space-between;
+    }
+    nav .links .shown{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .bars:hover .hidden{
+        top: 30px;
+    }
+    .example{
+        width: 90%;
+    }
+    .weathers{
+        flex-wrap: wrap;
+    }
+    .weather{
+        width: 20%;
+    }
+}
